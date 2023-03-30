@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleUI
 {
-    public class Robot
+    public class Robot:IMachine
     {
         public int x, y;
         public char orientation;
